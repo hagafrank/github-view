@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.search-result-cont {
+  margin-top: 8vh;
+}
+
+.search-result {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: inline;
+  padding: 50px;
+  border: solid 1px gray;
 }
